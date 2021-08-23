@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let n = parseInt(prompt("Ingrese un número entre 1 y 999"));
+
+      if (n < 1 || n > 999) {
+        alert(`El número ${n} no está en el rango de 1-999`);
+      } else {
+        document.write(
+          `<h1>El dígito ingresado es ${n} y tiene ${
+            String(n).length
+          } cifras</h1>`
+        );
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
